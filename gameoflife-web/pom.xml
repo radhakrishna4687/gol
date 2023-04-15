@@ -89,9 +89,9 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo message="Starting JMeter tests" />
-                                        <ant antfile="build.xml" target="jmeter" />
-                                        <echo message="JMeter tests done" />
+                                        <echo message="Starting JMeter tests"/>
+                                        <ant antfile="build.xml" target="jmeter"/>
+                                        <echo message="JMeter tests done"/>
                                     </tasks>
                                 </configuration>
                             </execution>
@@ -124,7 +124,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>3.0.2.RELEASE</version>
+            <version>5.2.24.RELEASE</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
